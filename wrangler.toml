@@ -1,0 +1,5 @@
+name = "rice-purity-test"
+
+workers_dev = true
+compatibility_date = "2022-05-04"
+main = "index.js"

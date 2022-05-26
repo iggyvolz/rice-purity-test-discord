@@ -1,0 +1,10 @@
+Discord bot using the http://ricepuritytest.com/ Rice Purity Test.
+
+Invite my bot https://discord.com/api/oauth2/authorize?client_id=979190425082548224&scope=applications.commands or host your own on Cloudflare Workers
+
+Create an application at https://discord.com/developers/applications/
+Register using: node register.js --experimental-fetch <application id> <bot token>
+Publish to Cloudflare Workers using wrangler publish
+Set the public key using wrangler secret put publicKey
+Set the Interactions Endpoint URL on the bot
+Individual questions are done using ephemeral messages (not visible to other users) - final score is visible to other users
